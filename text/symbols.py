@@ -8,7 +8,7 @@ from text import cmudict
 
 _pad        = '_'
 _eos        = '~'
-_characters = ''.join(chr(i) for i in range(2305, 2392)) + ' '
+_characters = ' !"&\',-.:;?\xa0ँंःअआइईउऊऋऍएऐऑओऔकखगघचछजझञटठडढणतथदधनपफबभमयरलळवशषसह़ािीुूृॅेैॉोौ्ॐक़ख़ग़ज़ड़ढ़फ़।०–‘’“”•…'
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
 _arpabet = ['@' + s for s in cmudict.valid_symbols]
